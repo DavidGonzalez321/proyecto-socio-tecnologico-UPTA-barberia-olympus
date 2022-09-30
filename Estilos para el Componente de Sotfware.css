@@ -1,0 +1,161 @@
+*{margin: 20;
+padding: 0;
+
+	
+}
+	.cuerpo{
+	background-image: url("imágenes/fondo 4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header{
+	display: inline-block;
+	height: 100px;;
+	text-align: center;
+	width: 100%;
+	color: #000000;
+	font-family: fantasy;
+	text-shadow: 2px 2px 2px #f3c332, 5px 5px gray;
+	border-radius: 100px;
+	border-color: #000000
+	
+}
+
+img{
+	width: 80px;
+	height: 80px; 
+}
+.logobarbería{
+	display: inline-block;
+	float: left;
+}
+.titulo{
+	display: inline-block;
+	margin: 80px;
+	margin-top: 12px;
+	float: center;
+}
+.logoUPTA{
+	display: inline-block;
+	float: right;
+}
+nav{
+	margin: 20px;
+	border-radius: 15px;
+	font-family: tines new roman;
+}
+
+.menúcitas{
+	background-color:#e1d9d9;
+	margin: 20px;
+	border-radius: 15px;
+	height: 400px; 
+	width: 500px;
+	float: center;
+}
+
+.btn{
+	width: 150px;
+	height: 50px;
+}
+
+.menúformulariocitas{
+	background-color:#e1d9d9;
+	border-radius: 15px;
+	height: 530px;
+}
+.menúhorario{
+	background-color:#e1d9d9;
+	border-radius: 15px;
+	height: 530px;
+	width: 700px;
+}
+
+.menúformulariocliente{
+	background-color:#e1d9d9;
+	border-radius: 15px;
+	height: 550px
+}
+.menúformulariopagos{
+	background-color:#e1d9d9;
+	border-radius: 15px;
+	height: 520px;
+}
+.menúformularioempleado{
+	background-color:#e1d9d9;
+	border-radius: 15px;
+	height: 600px
+}
+.menúformularioservicio{
+	background-color:#e1d9d9;
+	border-radius: 15px;
+	height: 450px
+}
+
+.tablascita{
+	border: 2px solid black;
+	border-collapse: collapse;
+	background-color: #ffff;
+}
+
+.menútablas{
+	background-color:#e1d9d9;
+	border-radius: 15px;
+	height: 280px
+}
+
+.menúlistaempleados{
+	background-color:#e1d9d9;
+	border-radius: 15px;
+	height: 300px
+}
+
+.menútablasdevoluciones{
+	background-color:#e1d9d9;
+	border-radius: 15px;
+	height: 420px
+}
+
+.tablascitatotal{
+	border-right: 2px black solid;
+	background-color: #ffff;
+}
+
+.menútablaspagos{
+	background-color:#e1d9d9;
+	border-radius: 15px;
+	height: 300px
+}
+.menútablasmodificaciónclientes{
+	background-color:#e1d9d9;
+	border-radius: 15px;
+	height: 420px
+}
+
+.menútablasmodificaciónempleados{
+	background-color:#e1d9d9;
+	border-radius: 15px;
+	height: 470px;
+}
+
+.menútablasmodificaciónservicios{
+	background-color:#e1d9d9;
+	border-radius: 15px;
+	height: 470px;
+}
+
+.menútablaslistadoservicio{
+	background-color:#e1d9d9;
+	border-radius: 15px;
+	height: 350px;
+}
+
+footer{
+	width: 100%;
+	background-color: #000000;
+	height: 70px;
+	color: #c0c0c0;
+	font-family: tines new roman;
+}
+

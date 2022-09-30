@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Barbería Olympus</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" type ="text/css" href="estilos para el componente de sotfware.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+
+  
+</head>
+
+<body class="cuerpo"> 
+
+  <section> <!--section para el Header de los logos y nombe de la comunidad-->
+    
+
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
+
+    <div class="logobarbería">
+      <img src="imágenes/logo barbería.jpg" alt="">
+    </div>
+    <div >
+      <center><h1 class="titulo">BARBERÍA OLYMPUS</h1></center>
+    </div>
+    <div class="logoUPTA">
+      <img src="imágenes/logo UPTA.jpg" alt="">
+    </div>
+      
+    </header>
+    
+  </section>
+
+  <section> <!--Section para la barra de navegación-->
+    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Componente de Sotfware.html">Menú Principal</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample03">
+          <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" style="color: white" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Citas</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                <li><a class="dropdown-item" href="Control de Citas.html">Control de Citas</a></li>
+                <li><a class="dropdown-item" href="Listado de Citas del Día.html">Ver Citas</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" style="color: white" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Horario Laboral</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                <li><a class="dropdown-item" href="Formulario de Hora de Entrada.html">Registrar hora de Entrada</a></li>
+                <li><a class="dropdown-item" href="Formulario de Hora de Salida.html">Registar Hora de Salida</a></li>
+                <li><a class="dropdown-item" href="Listado de Horas de Entradas y Salidas.html">Ver horas de Entrada y Salida del Día</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" style="color: white" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Pagos y Devoluciones</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                <li><a class="dropdown-item" href="Formulario de Registro de Pagos.html">Registrar Nuevo Pago</a></li>
+                <li><a class="dropdown-item" href="Devoluciones de Pagos.html">Devolución de Pagos</a></li>
+                <li><a class="dropdown-item" href="Listado de Pagos.html">Ver pagos del Día</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" style="color: white" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Clientes</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                <li><a class="dropdown-item" href="Formulario de Registro de Clientes.html">Registrar Nuevo Cliente</a></li>
+                <li><a class="dropdown-item" href="Listado de Clientes.html">Ver Clientes</a></li>
+                <li><a class="dropdown-item" href="Modificación de Clientes.html">Modificar Datos Del Clientes</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" style="color: white" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Empleados</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                <li><a class="dropdown-item" href="Formulario de Registro de Empleados.html">Registrar nuevo Empleado</a></li>
+                <li><a class="dropdown-item" href="Listado de Empleados.html">Ver Empleados</a></li>
+                <li><a class="dropdown-item" href="Modificación de Empleados.html">Modificar Datos del Empleados</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" style="color: white" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                <li><a class="dropdown-item" href="Formulario de Registro de Nuevo Servicio.html">Registrar Nuevo Servicio</a></li>
+                <li><a class="dropdown-item" href="Listado de Servicios.html">Ver Servicios</a></li>
+                <li><a class="dropdown-item" href="Modificación de Servicios.html">Modificar Servicios</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form role="search">
+            <input class="form-control" type="search" placeholder="Buscar" aria-label="Search">
+          </form>
+        </div>
+      </div>
+    </nav>
+    
+  </section>
+
+
+  <section> <!--Section para Modificación de clientes--> 
+
+    <div class="container menútablasmodificaciónclientes col-md-7">
+
+      <center>
+
+        <main class="menútablasmodificaciónclientes">
+
+        <div class="py-5 text-center">
+        <h2>Modificación de Clientes</h2>
+        </div>
+
+        <div class="form-check">
+          
+            <table class="col-md-9 col-lg-10 ">
+
+            <tr class="tablascita">
+            <th class="tablascita">seleccionar</th>
+            <th class="tablascita col-md-1">#</th>
+            <th class="tablascita">Nombre</th>
+            <th class="tablascitacita">Apellido</th>
+            <th class="tablascita">C.I</th>
+            <th class="tablascita">Télefono</th>
+            </tr>
+
+            <tr>
+            <td class="tablascita"contenteditable=""><input type="checkbox" name="check1" class="form-check">
+            <label for="check" class="form-check-label"></label></td>
+            <td class="tablascita">1</td>
+            <td class="tablascita">David </td>
+            <td class="tablascita">González</td>
+            <td class="tablascita">12.345.678</td>
+            <td class="tablascita">88888</td>
+            </tr>
+
+            <tr>
+            <td class="tablascita"contenteditable=""><input type="checkbox" name="check1" class="form-check">
+            <label for="check" class="form-check-label"></label></td>
+            <td class="tablascita"> 2 </td>
+            <td class="tablascita">Guillermo</td>
+            <td class="tablascita">Sánchez</td>
+            <td class="tablascita">12.345.678</td>
+            <td class="tablascita">88888</td>
+            </tr>
+
+            <tr>
+            <td class="tablascita"contenteditable=""><input type="checkbox" name="check1" class="form-check">
+            <label for="check" class="form-check-label"></label></td>
+            <td class="tablascita"> 3 </td>
+            <td class="tablascita">Juan</td>
+            <td class="tablascita">Farías</td>
+            <td class="tablascita">12.345.678</td>
+            <td class="tablascita">88888</td>
+
+            </table>
+
+            <br>
+            <button class="btn btn-primary col-md-9 col-lg-10" type="submit">Modificar Cliente</button>
+
+        </div>
+      </main>
+    </center>  
+  </div>
+    
+  </section>
+
+  <br>
+  <br>
+
+<section><!--Section para el footer-->
+
+  <footer>
+  <center>
+    <br>
+    <h2><cite>La Victoria 2022</cite></h2>
+    
+    <br>
+  </center>
+ </footer>
+ <br>
+</section> 
+
+ 
+
+</section>
+
+</body>
+</html>
